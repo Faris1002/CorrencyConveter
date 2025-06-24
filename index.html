@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="converter-box">
+    <h2>Currency Converter</h2>
+    <div class="row">
+      <select id="fromCurrency"></select>
+      <input type="number" id="fromAmount" value="1" min="0" class="frmCon"/>
+    </div>
+    <div class="row">
+      <select id="toCurrency"></select>
+      <input type="text" id="toAmount" disabled />
+    </div>
+    <p id="rateInfo">Exchange rate info will appear here</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
